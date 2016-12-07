@@ -1,0 +1,83 @@
+{
+    "acquisition_software": "Pychron16.7(Exp0.1,DVC0.1)", 
+    "aliquot": 117, 
+    "analysis_type": "blank_unknown", 
+    "analyst_name": "MHeizler", 
+    "comment": "", 
+    "commit": "bc09e67dbf88369b75583c4b6a4c4833d69b0438", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -530729609918142714, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron16.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_furnace.py", 
+    "identifier": "bu-NF-F", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 20, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Blank", 
+    "measurement": "felix_analysis400_120.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "normal", 
+    "repository_identifier": "Felix_blank161", 
+    "sample": "blank_unknown", 
+    "spec_sha": "4340ad694595f0ff31b7f746635fa6b79cb517c9", 
+    "timestamp": "2016-12-06T19:17:40.313926", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "40d6c932-39fb-4a40-ace4-04b52a2a201d", 
+    "whiff_result": null
+}
